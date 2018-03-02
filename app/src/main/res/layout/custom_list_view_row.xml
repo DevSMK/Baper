@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_fav"
+        android:id="@+id/potoId"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/potoJudul"
+        android:text="JUDUL"
+        android:textSize="20sp"
+        android:textColor="@color/darkblue"
+        android:layout_toRightOf="@id/potoId"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/potoDescribe"
+        android:text="Deskribsi"
+        android:textSize="16sp"
+        android:textColor="@color/darkblue"
+        android:layout_below="@id/potoJudul"
+        android:layout_toRightOf="@id/potoId"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BAPER</string>
+
+
+    <string name="tab1">CALLS</string>
+    <string name="tab2">CHATS</string>
+    <string name="tab3">CONTACTS</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="ownerQuote1">Harry Sunaryo</string>
+    <string name="ownerQuote2">M. Juandi</string>
+    <string name="ownerQuote3">Aris Sudianto</string>
+    <string name="ownerQuote4">Roby Gunawan</string>
+    <string name="ownerQuote5">Handika Winardi</string>
+
+    <string name="quote1">Questions asking us to recommend or find a book, tool, software library, tutorial or other off-site resource are off-topic for Stack Overflow as they tend to attract opinionated answers and spam. Instead, describe the problem and what has been done so far to solve it.</string>
+    <string name="quote2">Questions asking us to recommend or find a book, tool, software library, tutorial or other off-site resource are off-topic for Stack Overflow as they tend to attract opinionated answers and spam. Instead, describe the problem and what has been done so far to solve it.</string>
+    <string name="quote3">Questions asking us to recommend or find a book, tool, software library, tutorial or other off-site resource are off-topic for Stack Overflow as they tend to attract opinionated answers and spam. Instead, describe the problem and what has been done so far to solve it.</string>
+    <string name="quote4">Questions asking us to recommend or find a book, tool, software library, tutorial or other off-site resource are off-topic for Stack Overflow as they tend to attract opinionated answers and spam. Instead, describe the problem and what has been done so far to solve it.</string>
+    <string name="quote5">Questions asking us to recommend or find a book, tool, software library, tutorial or other off-site resource are off-topic for Stack Overflow as they tend to attract opinionated answers and spam. Instead, describe the problem and what has been done so far to solve it.</string>
+
+
+</resources>

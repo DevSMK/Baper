@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAF8F9"
+    tools:context="id.baperan.baper.IntroApp">
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_laptop"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/slide_title4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELESAIKAN MASALAHMU"
+        android:textColor="#D9472B"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@id/img4"
+        android:layout_marginTop="2dp"
+        />
+
+    <TextView
+        android:id="@+id/slide_desc4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Semuanya dan sekarang juga"
+        android:textColor="#E6563A"
+        android:textSize="15dp"
+        android:gravity="center"
+        android:layout_below="@id/slide_title4"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        />
+
+    <TextView
+        android:id="@+id/txt_dengan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dengan"
+        android:textStyle="italic"
+        android:textColor="#E6563A"
+        android:textSize="25sp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:layout_below="@id/slide_desc4"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:src="@drawable/tittle"
+        android:layout_below="@id/txt_dengan"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        />
+
+
+    <TextView
+        android:id="@+id/txt_baper1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="BAPER"
+        android:textStyle="italic"
+        android:textColor="#FFF"
+        android:textSize="28sp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:layout_below="@id/txt_dengan"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/logo_baper"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_fav"
+        android:layout_below="@id/txt_dengan"
+        android:layout_toLeftOf="@id/txt_baper1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:scaleType="centerCrop"
+        />
+
+
+
+</RelativeLayout>

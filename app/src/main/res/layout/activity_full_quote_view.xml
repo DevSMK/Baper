@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="id.baperan.baper.FullQuoteView">
+
+    <include layout="@layout/base_toolbar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imgQuote"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:padding="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/padlock"
+            />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/bodyQuote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:padding="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:elevation="10dp"
+            android:layout_below="@id/imgQuote"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/ic_quote"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true">
+
+                    <TextView
+                        android:id="@+id/txtQuoteBody"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="18dp"
+                        android:padding="10dp"
+                        android:text="Questions asking us to recommend or find a book, tool, software library, tutorial or other off-site resource are off-topic for Stack Overflow as they tend to attract opinionated answers and spam. Instead, describe the problem and what has been done so far to solve it."
+                        android:textSize="16dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/lightgray"
+                        android:layout_margin="5dp"/>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_toLeftOf="@+id/nameQoute"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/icuser_gray"
+                            android:padding="3dp"
+                            android:text=" Martijn Pieters"/>
+
+                        <TextView
+                            android:id="@+id/nameQoute"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textStyle="bold"
+                            android:padding="5dp"
+                            android:layout_centerInParent="true"
+                            android:text=" Martijn Pieters"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+      <ImageButton
+          android:id="@+id/shareWA_FullQuote"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@id/bodyQuote"
+          android:layout_centerHorizontal="true"
+          android:src="@drawable/icuser_gray"/>
+
+        <ImageButton
+            android:id="@+id/shareFB_FullQuote"
+            android:layout_toLeftOf="@id/shareWA_FullQuote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bodyQuote"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icuser_gray"/>
+
+        <ImageButton
+            android:id="@+id/shareINSTA_FullQuote"
+            android:layout_toRightOf="@id/shareWA_FullQuote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bodyQuote"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/icuser_gray"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

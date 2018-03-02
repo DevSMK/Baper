@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/foreColor"
+    android:orientation="vertical"
+    tools:context="id.baperan.baper.IntroApp">
+
+    <include layout="@layout/base_toolbar" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/txtBlock"
+            android:layout_centerInParent="true"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/circlebg_gray"
+                    android:src="@drawable/music"
+                    android:padding="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="19dp"
+                    android:layout_marginTop="5dp"
+                    android:text="AKSES DITOLAK!"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Enkripsi chat"
+                    android:textColor="@color/colorAccent"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:text="Untuk menjaga privacy anda"
+                    android:textColor="@android:color/darker_gray"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <EditText
+            android:id="@+id/txtPass"
+            android:hint="Masukkan Password"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:background="@drawable/custom_edit_transparant"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnPass"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/btn_default"
+            android:drawableLeft="@drawable/ic_key_login"
+            android:paddingLeft="10dp"
+            android:paddingRight="30dp"
+            android:text="BUKA"
+            android:textSize="20dp"
+            android:layout_below="@+id/txtPass"
+            android:textColor="@color/foreColor"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>
